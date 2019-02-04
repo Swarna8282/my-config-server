@@ -4,7 +4,8 @@ spring:
     config:
       server:
         git:
-          uri: File:///${HOME}/myStuff/sts-workspace-2/my-config-server
+          uri: https://github.com/Swarna8282/properties
+          skipSslValidation: true
   application:
     name: my-config-server
 
