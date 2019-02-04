@@ -4,7 +4,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///${HOME}/myStuff/sts-workspace-2/my-config-server
+          uri: https://gitlab.prod.fedex.com/3745693/config-repo.git
   application:
     name: my-config-server
 
