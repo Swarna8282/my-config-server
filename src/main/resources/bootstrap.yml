@@ -4,11 +4,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Swarna8282/properties
-          skipSslValidation: true
+          uri: file:///${HOME}/myStuff/sts-workspace-2/my-config-server
   application:
     name: my-config-server
 
 server:
   port: 9999
-
